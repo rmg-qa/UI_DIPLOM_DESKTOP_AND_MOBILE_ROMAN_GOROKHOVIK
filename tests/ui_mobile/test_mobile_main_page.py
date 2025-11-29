@@ -60,7 +60,7 @@ def test_add_in_cart_new_year_tree(mobile_management):
         browser.element(MobileCart.button_delete_product_in_cart).should(be.clickable).click()
         try:
             browser.element(MobileSiteNotifications.banner_advertisement).should(
-                be.present).click()  # иногда может появиться баннер с рекламой.
+                be.visible).click()  # иногда может появиться баннер с рекламой.
         except:
             pass
         browser.element(MobileCart.button_confirm_delete).should(be.clickable).click()
