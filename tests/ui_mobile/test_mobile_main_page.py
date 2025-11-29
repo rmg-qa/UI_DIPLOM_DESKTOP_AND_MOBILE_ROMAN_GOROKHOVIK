@@ -58,10 +58,12 @@ def test_add_in_cart_new_year_tree(mobile_management):
         browser.element(MobileSiteNotifications.add_product_in_cart).should(be.present)
     with step('Удаляем товар из корзины'):
         browser.element(MobileCart.button_delete_product_in_cart).should(be.clickable).click()
-        try:
-            browser.element(MobileSiteNotifications.banner_advertisement).should(
-                be.visible).click()  # иногда может появиться баннер с рекламой.
-        except:
+    with step('Удаляем рекламный баннер, если он появляется'):
+        banner = browser.element(MobileSiteNotifications.banner_advertisement)
+        if banner.should(be.visible):
+            banner.click()
+        else:
             pass
-        browser.element(MobileCart.button_confirm_delete).should(be.clickable).click()
+    with step('Продолжаем удаление товара из корзины'):
+        browser.element(MobileCart.button_confirm_delete).should(be.visible).click()
         browser.element(MobileSiteNotifications.delete_product_in_cart).should(be.present)
