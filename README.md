@@ -132,4 +132,4 @@
 ### <img width="3%" title="Telegram" src="images/tg.png"> Оповещения в Telegram
 ##### После выполнения тестов, в Telegram bot приходит сообщение с графиком и информацией о тестовом прогоне.
 
-![Уведомление только тогда, когда тест падает. Настраивается в джобе Jenkins](images/notification fail tests.png)
+![Уведомление только тогда, когда тест падает. Настраивается в джобе Jenkins](images/notification_fail_tests.png)
