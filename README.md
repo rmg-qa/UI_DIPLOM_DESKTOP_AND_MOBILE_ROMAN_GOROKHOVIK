@@ -101,5 +101,7 @@
 ### <img width="3%" title="Allure Report" src="images/allure_report.png"> Allure report
 
 ##### Результаты выполнения тестов можно посмотреть в Allure-отчете
-![This is a image](images/allure_dashboard.jpg)
-![This is a image](images/allure-suites.jpg)
+![This is a image](images/allure_dashboard.png)
+![This is a image](images/allure-suites.png)
+
+
