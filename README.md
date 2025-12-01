@@ -75,7 +75,7 @@
     ```bash
     pytest tests/ui_mobile
     ```
-   * Запуск всех автотестов:<br>
+   * для запуска всех автотестов:<br>
     ```bash
     pytest tests
     ```
