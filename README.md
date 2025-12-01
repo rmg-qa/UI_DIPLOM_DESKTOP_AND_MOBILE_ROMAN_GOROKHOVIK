@@ -19,7 +19,6 @@
   <code><img width="5%" title="Allure TestOps" src="images/allure_testops.png"></code>
   <code><img width="5%" title="Jira" src="images/jira.png"></code>
   <code><img width="5%" title="Telegram" src="images/tg.png"></code>
-  <code><img width="5%" title="Pydantic" src="images/pydantic.png"></code>
 </p>
 
 ### Список реализованных автотестов:
