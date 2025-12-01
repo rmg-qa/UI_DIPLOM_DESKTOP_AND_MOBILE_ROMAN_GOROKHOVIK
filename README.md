@@ -94,3 +94,12 @@
 ### <img width="3%" title="Jenkins" src="images/jenkins.png"> Запуск проекта в Jenkins
 
 ### [Задача в jenkins](https://jenkins.autotests.cloud/job/UI_DIPLOM_DESKTOP_AND_MOBILE_ROMAN_GOROKHOVIK/)
+
+
+<!-- Allure report -->
+
+### <img width="3%" title="Allure Report" src="images/allure_report.png"> Allure report
+
+##### Результаты выполнения тестов можно посмотреть в Allure-отчете
+![This is an image](images/allure_dashboard.jpg)
+![This is an image](images/allure-suites.jpg)
